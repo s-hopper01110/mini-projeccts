@@ -1,3 +1,10 @@
 h1{
     color:red;
 }
+
+
+
+.colorBox{
+    border: 2px solid black;
+    text-align: center;
+}
