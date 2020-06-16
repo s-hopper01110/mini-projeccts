@@ -18,4 +18,6 @@ function quoteRandomizer() {
     document.getElementById("quoteInput").innerHTML = quotes[randomQuote]
 }
 
+ //Increment/Decrement Counter Project:
+
 
