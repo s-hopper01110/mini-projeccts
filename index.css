@@ -12,5 +12,11 @@ h1{
 .quoteBox{
     border: 2px solid limegreen;
     text-align: center;
-    margin-top: 30px;;
+    margin-top: 30px;
+}
+
+.counterBox{
+    border: 2px solid plum;
+    margin-top: 30px;
+    text-align: center;
 }

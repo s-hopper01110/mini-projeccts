@@ -13,6 +13,8 @@
     </head>
     <body>
        <h1>Mini Projects</h1>
+
+       <!-- Background Color Change -->
        <div id="colorChange" class="colorBox">
            <h2>
                Change My Color!
@@ -22,11 +24,28 @@
            </button>
        </div>
 
+       <!-- Quote Generator -->
        <div class="quoteBox">
            <h2 id="quoteInput"></h2>
           <button onClick="quoteRandomizer()">
               Get Quote...
           </button>
+       </div>
+
+
+        <!-- Counter -->
+       <div class="counterBox"> 
+        <h2>Counter</h2>
+
+        <p id="numericalDisplay"></p>
+
+        <button onClick="decrementButton()">
+            Decrease
+        </button>
+
+        <button onClick="incrementButton()">
+            Increase</button>
+
        </div>
         
         <script src="index.js" async defer></script>
