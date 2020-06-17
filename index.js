@@ -20,4 +20,15 @@ function quoteRandomizer() {
 
  //Increment/Decrement Counter Project:
 
+//note: globlal variable
+let a = 0;
+document.getElementById("numericalDisplay").innerHTML = a;
 
+function decrementButton(){
+let b = a -= 1;
+document.getElementById("numericalDisplay").innerHTML = b
+}
+
+function incrementButton(){
+
+}
