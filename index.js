@@ -46,3 +46,31 @@ function incrementButton() {
         document.getElementById('numericalDisplay').style.color = '#dec1f6'
     }
 }
+
+//Image Slider Project
+
+// let slideIndex = 1;
+// showDivs(slideIndex);
+
+// function plusDivs(n) {
+//     showDivs(slideIndex += n);
+// }
+
+// function showDivs(n) {
+    
+//     let x = document.getElementsByClassName("slides");
+
+// }
+
+let slideImages = document.querySelectorAll('.slides'),
+    arrowLeft = document.querySelector('#arrow-left'),
+    arrowRight = document.querySelector('#arrow-right'),
+    current=0;
+
+    function reset(){
+        for(let i = 0; i < slideImages.length; i++){
+            slideImages[i].style.display = 'none';
+        }
+    }
+    
+    
