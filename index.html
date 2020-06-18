@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="https://kit.fontawesome.com/355b20f452.js" crossorigin="anonymous"></script>
     </head>
     <body>
        <h1>Mini Projects</h1>
@@ -45,8 +46,26 @@
 
         <button onClick="incrementButton()">
             Increase</button>
+        </div>
 
-       </div>
+        <!-- Image Slider Project -->
+        <div class="pictureBox">
+            <h2 class="imageContainer">
+            <img class="slides" src="images/justbreathinggirl.jpg"  width="100%">
+            <img class="slides" src="images/artgirlroom.jpg"  width="100%">
+            <img class="slides" src="images/moonGirl.jpg"  width="100%">
+            <img class="slides" src="images/watermelonslice.jpg"  width="100%">
+            <img class="slides" src="images/AppleWatch.jpg"  width="100%">
+            </h2>
+            
+            
+
+
+
+
+            <i class="far fa-caret-square-left" onClick="plusDivs(-1)"></i>
+            <i class="far fa-caret-square-right" onClick="plusDivs(+1)"></i>
+        </div>
         
         <script src="index.js" async defer></script>
     </body>
