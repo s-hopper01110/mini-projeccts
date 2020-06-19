@@ -72,5 +72,43 @@ let slideImages = document.querySelectorAll('.slides'),
             slideImages[i].style.display = 'none';
         }
     }
+
+    //initializes images slider
+    function startSlides(){
+        reset();
+        slideImages[0].style.display = 'block';
+    }
     
+    //show previous
+    function slideLeft(){
+        reset();
+        slideImages[current - 1].style.display = 'block';
+        current--;
+    }
+    //show next:
+    function slideRight(){
+        reset();
+        slideImages[current + 1].style.display = 'block';
+        current++;
+    }
+
+
+    //Left Arrow:
+
+    arrowLeft.addEventListener('click', function(){
+        if(current === 0){
+            current = slideImages.length;
+        }
+        slideLeft()
+    })
+
+    //Right Arrow:
+    arrowRight.addEventListener('click', function(){
+        if(current === slideImages.length - 1){
+            current = -1
+        }
+        slideRight()
+    })
+
+    startSlides();
     

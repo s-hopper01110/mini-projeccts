@@ -1,41 +1,58 @@
-h1{
-    color:red;
+h1 {
+	color: red;
 }
 
-
-
-.colorBox{
-    border: 2px solid black;
-    text-align: center;
+.colorBox {
+	border: 2px solid black;
+	text-align: center;
 }
 
-.quoteBox{
-    border: 2px solid limegreen;
-    text-align: center;
-    margin-top: 30px;
+.quoteBox {
+	border: 2px solid limegreen;
+	text-align: center;
+	margin-top: 30px;
 }
 
-.counterBox{
-    border: 2px solid plum;
-    margin-top: 30px;
-    text-align: center;
+.counterBox {
+	border: 2px solid plum;
+	margin-top: 30px;
+	text-align: center;
 }
 
+/* image slider project */
+.mainpictureBox {
+	border: 2px solid blue;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
 
-.mainpictureBox{
-    border: 2px solid blue;
-    margin: auto;
-    margin-top: 30px;
-    text-align: center;
-    width: 50%;
-    padding: 10px;
+	padding: 30px;
 }
 
-/* .mainimageContainer{
-    border: 2px solid yellowgreen;
-    margin: auto;
-    margin-top: 30px;
+.slides {
+	display: none;
+	border: 3px solid green;
+	width: 50%;
+	height: 600px;
+	margin: auto;
+}
 
-    width:50%;
-    padding:10px;
-} */
+.arrow-one {
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	margin-left: 25%;
+	bottom: -10%;
+	font-size: x-large;
+}
+
+.arrow-two {
+	cursor: pointer;
+	position: absolute;
+	margin-right: 25%;
+	right: 0;
+
+	bottom: -10%;
+	font-size: x-large;
+}
+
